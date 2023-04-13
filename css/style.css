@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: #3498db;
+}
+
+.site-main{
+    width: 100%;
+}
+
+.site-food-title{
+    margin: 1rem 1rem;
+    text-align: left;
+}
+
+.site-food-title h1 {
+    font-size: 1.5rem;
+}
+
+.span-box{
+    display: block;
+    padding: 1rem 0;
+}
+
+.span-box span {
+    margin-left: 0.5rem;
+}
+
+.span-box span:first-child{
+    margin-left: 0;
+}
+
+.recipe{
+    display: flex;
+    align-items: center;
+}
+
+.recipe span {
+    margin: 0 1rem;
+    display: block;
+}
+
+.site-food-title p {
+    margin: 1rem 0;
+}
+.site-container{
+    width: 100%;
+    margin: auto;
+    max-width: 75rem;
+    text-align: center;
+
+}
+
+.food-recipe-title{
+    margin: 1rem 0;
+}
+
+.food-recipe-list{
+    list-style-position: inside;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.references{
+    text-align: center;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+
+.references a {
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+}
